@@ -22,15 +22,8 @@ class Song
      song
   end
   def artist_name=(name)
-    artists = ""
-    if Artist.all == []
-            Artist.new(name)
-         else  Artist.all.map{ |artist| if artist.name == name
-                   artists = artist
 
-             end }
-             artists
-         end
-       end
+
+end
 
 end
